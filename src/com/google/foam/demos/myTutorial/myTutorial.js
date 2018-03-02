@@ -11,18 +11,20 @@ css:`
 ^{
 
 }
-^.title{
-    display: inline-block;
-    opacity: 0.8;
-}
+^ .title{
+    width: 448px;
+    height: 231px;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
 
-^.personImage{
+^ .personImage{
 height: 0.1%;
 width: 0.1%;
 text-align: left;
 }
 
-^.label{
+^ .label{
 font-size: 14px;
 color: light-grey;
 margin-bottom: 5px;
@@ -70,7 +72,6 @@ this.
 addClass(this.myClass())
 .start()
 .start('h1').add(this.title).addClass('title').end()
-.start({class: 'foam.u2.tag.Image', data:'images/images.jpg'}).addClass('personImage').end()
 .br()
 .start()
 .start().add(this.fnamelabel).addClass('label').end()
